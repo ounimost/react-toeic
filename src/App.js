@@ -1,20 +1,25 @@
-import "./App.css";
-import About from "./page/About";
-import Word from "./page/Word";
-import Contact from "./page/Contact";
-import Home from "./page/Home";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import WordTestPage from "./page/WordTestPage";
+import HomePage from "./page/HomePage";
+import AboutPage from "./page/AboutPage";
+import ContactPage from "./page/ContactPage";
+import SentenceTestPage from "./page/SentenceTestPage";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter basename="/toeic-learning/">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/word" element={<Word />} />
+        <Route path={"/"} element={<HomePage />} />
+        <Route path={"/about"} element={<AboutPage />} />
+        <Route path={"/contact"} element={<ContactPage />} />
+        <Route path={"/word"} element={<WordTestPage />}>
+          <Route path=":part" element={<WordTestPage />} />
+        </Route>
+        <Route path={"/sentence"} element={<SentenceTestPage />}>
+          <Route path=":part" element={<SentenceTestPage />} />
+        </Route>
       </Routes>
-    </div>
+    </BrowserRouter>
   );
 }
 
