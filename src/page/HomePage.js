@@ -9,27 +9,31 @@ const HomePage = () => {
   return (
     <div>
       <Header />
-      <main class="p-20 flex">
-        <div class="w-60 m-5">
-          <img src={image} class="items-center m-3" alt="単語テスト" />
-          <p class="text-center">
-            <Link to="/word/600">Level 600</Link>
-          </p>
-          <p class="text-center">
-            <Link to="/word/700">Level 700</Link>
-          </p>
-          <p class="text-center">
-            <Link to="/word/800">Level 800</Link>
-          </p>
+      <main className="flex flex-wrap p-5">
+        <div className="sm:min-w-full md:min-w-0 p-5">
+          <img src={image} className="items-center p-3" alt="単語テスト" />
+          <ul className="p-3">
+            <li className="opacity-50 hover:opacity-100">
+              <Link to="/word/1">Part.1</Link>
+            </li>
+            <li className="opacity-50 hover:opacity-100">
+              <Link to="/word/2">Part.2</Link>
+            </li>
+            <li className="opacity-50 hover:opacity-100">
+              <Link to="/word/3">Part.3</Link>
+            </li>
+          </ul>
         </div>
-        <div class="w-60 m-5">
-          <img src={image2} class="items-center m-3" alt="出題文テスト" />
-          <p class="text-center">
-            <Link to="/sentence/1">Part.1</Link>
-          </p>
-          <p class="text-center">
-            <Link to="/sentence/2">Part.2</Link>
-          </p>
+        <div className="sm:min-w-full md:min-w-0 p-5">
+          <img src={image2} className="items-center p-3" alt="出題文テスト" />
+          <ul className="p-3">
+            <li className="opacity-50 hover:opacity-100">
+              <Link to="/sentence/1">Part.1</Link>
+            </li>
+            <li className="opacity-50 hover:opacity-100">
+              <Link to="/sentence/2">Part.2</Link>
+            </li>
+          </ul>
         </div>
       </main>
       <Footer />

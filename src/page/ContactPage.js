@@ -1,21 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import HomeButton from "../components/HomeButton";
+import Title from "../components/Title";
 
 const ContactPage = () => {
   return (
-    <div>
+    <>
       <Header />
       <main>
-        <div class="p-10">
-          <h1>お問合せ</h1>
-          <p>ここにコンタクトフォームを置く</p>
-          <Link to="/">Homeに戻る</Link>
+        <div className="p-10">
+          <Title text="お問合せ" />
+          <p>ここにコンタクトフォームを置きます。</p>
+          <HomeButton />
         </div>
       </main>
       <Footer />
-    </div>
+    </>
   );
 };
 

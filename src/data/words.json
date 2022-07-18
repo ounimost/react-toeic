@@ -1,6 +1,5 @@
 [
   {
-    "Rank": "600",
     "Words": [
       {
         "en": "regional",
@@ -45,7 +44,6 @@
     ]
   },
   {
-    "Rank": "700",
     "Words": [
       {
         "en": "surprisingly",
@@ -86,6 +84,50 @@
       {
         "en": "promptly",
         "ja": "すぐに"
+      }
+    ]
+  },
+  {
+    "Words": [
+      {
+        "en": "ingredient",
+        "ja": "成分・要素"
+      },
+      {
+        "en": "protective",
+        "ja": "保護する"
+      },
+      {
+        "en": "arrangement",
+        "ja": "準備・手配"
+      },
+      {
+        "en": "misunderstand",
+        "ja": "誤解する"
+      },
+      {
+        "en": "statistical",
+        "ja": "統計の"
+      },
+      {
+        "en": "candidate",
+        "ja": "候補者"
+      },
+      {
+        "en": "invoice",
+        "ja": "請求書"
+      },
+      {
+        "en": "commemorative",
+        "ja": "記念の"
+      },
+      {
+        "en": "accomplishment",
+        "ja": "偉業・業績"
+      },
+      {
+        "en": "inspect",
+        "ja": "検査する"
       }
     ]
   }

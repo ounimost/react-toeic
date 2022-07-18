@@ -1,21 +1,33 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import HomeButton from "../components/HomeButton";
+import Title from "../components/Title";
+import SubTitle from "../components/SubTitle";
 
 const AboutPage = () => {
   return (
-    <div>
+    <>
       <Header />
       <main>
-        <div class="p-10">
-          <h1>このアプリについて</h1>
-          <p>ここに紹介文を置く</p>
-          <Link to="/">Homeに戻る</Link>
+        <div className="p-10">
+          <Title text="このサイトについて" />
+          <p>
+            TOEIC学習サイトは、OUNI
+            Studioが制作したTOEICを学習するためのサイトです。
+          </p>
+          <p>現在、開発途中のため日々サイトが更新されます。</p>
+          <SubTitle text="リンクについて" />
+          <p>リンクフリーです。</p>
+          <SubTitle text="サイトの運営について" />
+          <p>OUNI STUDIOが運営しています。</p>
+          <SubTitle text="サイトの情報" />
+          <p>React/TailwindCSSでサイトを構築しています。</p>
+          <HomeButton />
         </div>
       </main>
       <Footer />
-    </div>
+    </>
   );
 };
 export default AboutPage;
