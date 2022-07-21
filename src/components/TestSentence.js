@@ -1,7 +1,7 @@
 import React from "react";
-import Data from "../data/words.json";
+import Data from "../data/sentence.json";
 
-const TestWord = (props) => {
+const TestSentence = (props) => {
   const now = (props.part - 1) * 10 + props.count;
 
   const en = Data[now].en;
@@ -12,11 +12,11 @@ const TestWord = (props) => {
 
   return (
     <div className="m-10">
-      <div className="m-10 text-5xl font-bold center">{en}</div>
+      <div className="m-10 text-3xl font-bold center">{en}</div>
       <hr></hr>
-      <div className="m-10 text-4xl font-bold center">{ja}</div>
+      <div className="m-10 text-xl font-bold center">{ja}</div>
     </div>
   );
 };
 
-export default TestWord;
+export default TestSentence;

@@ -1,134 +1,122 @@
 [
   {
-    "Words": [
-      {
-        "en": "regional",
-        "ja": "地域"
-      },
-      {
-        "en": "proudly",
-        "ja": "誇らしげに"
-      },
-      {
-        "en": "relocate",
-        "ja": "移転する"
-      },
-      {
-        "en": "outage",
-        "ja": "停止"
-      },
-      {
-        "en": "affect",
-        "ja": "影響"
-      },
-      {
-        "en": "revise",
-        "ja": "改める・改訂"
-      },
-      {
-        "en": "revenue",
-        "ja": "収入"
-      },
-      {
-        "en": "reliably",
-        "ja": "確実に"
-      },
-      {
-        "en": "urge",
-        "ja": "促す・衝動"
-      },
-      {
-        "en": "rightfully",
-        "ja": "正当に・当然のことながら"
-      }
-    ]
+    "en": "regional",
+    "ja": "地域"
   },
   {
-    "Words": [
-      {
-        "en": "surprisingly",
-        "ja": "意外と"
-      },
-      {
-        "en": "expensive",
-        "ja": "高い"
-      },
-      {
-        "en": "representative",
-        "ja": "代表"
-      },
-      {
-        "en": "eliminate",
-        "ja": "取り除く・除外"
-      },
-      {
-        "en": "affect",
-        "ja": "影響する"
-      },
-      {
-        "en": "agricultural",
-        "ja": "農業の"
-      },
-      {
-        "en": "faithful",
-        "ja": "誠実な"
-      },
-      {
-        "en": "alongside",
-        "ja": "並んで・そばに"
-      },
-      {
-        "en": "restore",
-        "ja": "戻す・復元する"
-      },
-      {
-        "en": "promptly",
-        "ja": "すぐに"
-      }
-    ]
+    "en": "proudly",
+    "ja": "誇らしげに"
   },
   {
-    "Words": [
-      {
-        "en": "ingredient",
-        "ja": "成分・要素"
-      },
-      {
-        "en": "protective",
-        "ja": "保護する"
-      },
-      {
-        "en": "arrangement",
-        "ja": "準備・手配"
-      },
-      {
-        "en": "misunderstand",
-        "ja": "誤解する"
-      },
-      {
-        "en": "statistical",
-        "ja": "統計の"
-      },
-      {
-        "en": "candidate",
-        "ja": "候補者"
-      },
-      {
-        "en": "invoice",
-        "ja": "請求書"
-      },
-      {
-        "en": "commemorative",
-        "ja": "記念の"
-      },
-      {
-        "en": "accomplishment",
-        "ja": "偉業・業績"
-      },
-      {
-        "en": "inspect",
-        "ja": "検査する"
-      }
-    ]
+    "en": "relocate",
+    "ja": "移転する"
+  },
+  {
+    "en": "outage",
+    "ja": "停止"
+  },
+  {
+    "en": "affect",
+    "ja": "影響"
+  },
+  {
+    "en": "revise",
+    "ja": "改める・改訂"
+  },
+  {
+    "en": "revenue",
+    "ja": "収入"
+  },
+  {
+    "en": "reliably",
+    "ja": "確実に"
+  },
+  {
+    "en": "urge",
+    "ja": "促す・衝動"
+  },
+  {
+    "en": "rightfully",
+    "ja": "正当に・当然のことながら"
+  },
+  {
+    "en": "surprisingly",
+    "ja": "意外と"
+  },
+  {
+    "en": "expensive",
+    "ja": "高い"
+  },
+  {
+    "en": "representative",
+    "ja": "代表"
+  },
+  {
+    "en": "eliminate",
+    "ja": "取り除く・除外"
+  },
+  {
+    "en": "affect",
+    "ja": "影響する"
+  },
+  {
+    "en": "agricultural",
+    "ja": "農業の"
+  },
+  {
+    "en": "faithful",
+    "ja": "誠実な"
+  },
+  {
+    "en": "alongside",
+    "ja": "並んで・そばに"
+  },
+  {
+    "en": "restore",
+    "ja": "戻す・復元する"
+  },
+  {
+    "en": "promptly",
+    "ja": "すぐに"
+  },
+  {
+    "en": "ingredient",
+    "ja": "成分・要素"
+  },
+  {
+    "en": "protective",
+    "ja": "保護する"
+  },
+  {
+    "en": "arrangement",
+    "ja": "準備・手配"
+  },
+  {
+    "en": "misunderstand",
+    "ja": "誤解する"
+  },
+  {
+    "en": "statistical",
+    "ja": "統計の"
+  },
+  {
+    "en": "candidate",
+    "ja": "候補者"
+  },
+  {
+    "en": "invoice",
+    "ja": "請求書"
+  },
+  {
+    "en": "commemorative",
+    "ja": "記念の"
+  },
+  {
+    "en": "accomplishment",
+    "ja": "偉業・業績"
+  },
+  {
+    "en": "inspect",
+    "ja": "検査する"
   }
 ]

@@ -23,7 +23,7 @@ const TestNavi = ({
 
   // 進む
   const handleNext = () => {
-    if (count == 9) {
+    if (count === 9) {
       setState({ isAnswer: false, isResult: true });
       return;
     }
@@ -34,9 +34,15 @@ const TestNavi = ({
 
   return (
     <div>
-      <TestNaviQuestion handleOk={handleOk} handleNg={handleNg} state={state} />
-      <TestNaviAnswer handleNext={handleNext} state={state} />
-      <TestNaviResult state={state} correct={correct} />
+      <div className="h-40">
+        <TestNaviQuestion
+          handleOk={handleOk}
+          handleNg={handleNg}
+          state={state}
+        />
+        <TestNaviAnswer handleNext={handleNext} state={state} />
+        <TestNaviResult state={state} correct={correct} />
+      </div>
       <HomeButton />
     </div>
   );

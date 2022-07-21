@@ -21,7 +21,7 @@ const WordTestPage = (props) => {
       <Header />
       <main className="p-10 text-center ">
         <TestTitle
-          title="単語テスト"
+          title="単語を覚えよう"
           part={params.part}
           now={count + 1}
           max={10}
